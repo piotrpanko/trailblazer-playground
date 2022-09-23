@@ -1,24 +1,9 @@
-# README
+# Trailblazer playground
+Blog application created for training TDD and trailblazer usage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Planned features
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- User registration/login (device)
+  - Two roles - user and admin
+- All users can write comments under the post
+- Admin can create the posts
