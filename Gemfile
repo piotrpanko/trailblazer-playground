@@ -17,6 +17,10 @@ gem "bootsnap", require: false
 group :development, :test do
   gem 'rspec-rails'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rails_best_practices'
 end
 
 group :development do
